@@ -1,3 +1,9 @@
+E:\MyProjects\EmployeeServiceOwinApiDemo\EmployeeService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\MyProjects\EmployeeServiceOwinApiDemo\EmployeeService\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\MyProjects\EmployeeServiceOwinApiDemo\EmployeeService\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\MyProjects\EmployeeServiceOwinApiDemo\EmployeeService\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\MyProjects\EmployeeServiceOwinApiDemo\EmployeeService\bin\roslyn\System.IO.Compression.dll
+E:\MyProjects\EmployeeServiceOwinApiDemo\EmployeeService\bin\roslyn\VBCSCompiler.exe
 E:\MyProjects\EmployeeServiceOwinApiDemo\EmployeeService\bin\ApplicationInsights.config
 E:\MyProjects\EmployeeServiceOwinApiDemo\EmployeeService\bin\EmployeeService.dll.config
 E:\MyProjects\EmployeeServiceOwinApiDemo\EmployeeService\bin\EmployeeService.dll
@@ -9,13 +15,9 @@ E:\MyProjects\EmployeeServiceOwinApiDemo\EmployeeService\bin\roslyn\csi.exe
 E:\MyProjects\EmployeeServiceOwinApiDemo\EmployeeService\bin\roslyn\csi.exe.config
 E:\MyProjects\EmployeeServiceOwinApiDemo\EmployeeService\bin\roslyn\csi.rsp
 E:\MyProjects\EmployeeServiceOwinApiDemo\EmployeeService\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-E:\MyProjects\EmployeeServiceOwinApiDemo\EmployeeService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
 E:\MyProjects\EmployeeServiceOwinApiDemo\EmployeeService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-E:\MyProjects\EmployeeServiceOwinApiDemo\EmployeeService\bin\roslyn\Microsoft.CodeAnalysis.dll
 E:\MyProjects\EmployeeServiceOwinApiDemo\EmployeeService\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-E:\MyProjects\EmployeeServiceOwinApiDemo\EmployeeService\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
 E:\MyProjects\EmployeeServiceOwinApiDemo\EmployeeService\bin\roslyn\Microsoft.CSharp.Core.targets
-E:\MyProjects\EmployeeServiceOwinApiDemo\EmployeeService\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
 E:\MyProjects\EmployeeServiceOwinApiDemo\EmployeeService\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
 E:\MyProjects\EmployeeServiceOwinApiDemo\EmployeeService\bin\roslyn\Microsoft.VisualBasic.Core.targets
 E:\MyProjects\EmployeeServiceOwinApiDemo\EmployeeService\bin\roslyn\Microsoft.Win32.Primitives.dll
@@ -25,7 +27,6 @@ E:\MyProjects\EmployeeServiceOwinApiDemo\EmployeeService\bin\roslyn\System.Conso
 E:\MyProjects\EmployeeServiceOwinApiDemo\EmployeeService\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
 E:\MyProjects\EmployeeServiceOwinApiDemo\EmployeeService\bin\roslyn\System.Diagnostics.Process.dll
 E:\MyProjects\EmployeeServiceOwinApiDemo\EmployeeService\bin\roslyn\System.Diagnostics.StackTrace.dll
-E:\MyProjects\EmployeeServiceOwinApiDemo\EmployeeService\bin\roslyn\System.IO.Compression.dll
 E:\MyProjects\EmployeeServiceOwinApiDemo\EmployeeService\bin\roslyn\System.IO.FileSystem.dll
 E:\MyProjects\EmployeeServiceOwinApiDemo\EmployeeService\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
 E:\MyProjects\EmployeeServiceOwinApiDemo\EmployeeService\bin\roslyn\System.IO.FileSystem.Primitives.dll
@@ -48,7 +49,6 @@ E:\MyProjects\EmployeeServiceOwinApiDemo\EmployeeService\bin\roslyn\System.Xml.X
 E:\MyProjects\EmployeeServiceOwinApiDemo\EmployeeService\bin\roslyn\vbc.exe
 E:\MyProjects\EmployeeServiceOwinApiDemo\EmployeeService\bin\roslyn\vbc.exe.config
 E:\MyProjects\EmployeeServiceOwinApiDemo\EmployeeService\bin\roslyn\vbc.rsp
-E:\MyProjects\EmployeeServiceOwinApiDemo\EmployeeService\bin\roslyn\VBCSCompiler.exe
 E:\MyProjects\EmployeeServiceOwinApiDemo\EmployeeService\bin\roslyn\VBCSCompiler.exe.config
 E:\MyProjects\EmployeeServiceOwinApiDemo\EmployeeService\bin\Antlr3.Runtime.dll
 E:\MyProjects\EmployeeServiceOwinApiDemo\EmployeeService\bin\EmployeeDataAccess.dll

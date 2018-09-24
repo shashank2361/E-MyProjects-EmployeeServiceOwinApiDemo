@@ -1,19 +1,16 @@
 ﻿using EmployeeDataAccess;
 using System;
-using System.Collections.Generic;
-using System.Linq;
+ using System.Linq;
 using System.Net;
 using System.Net.Http;
-using System.Threading;
 using System.Web.Http;
-using System.Web.Http.Cors;
-using System.Web.Mvc;
-
+ 
 namespace EmployeeSerivce.Controllers
 {
     //  [EnableCorsAttribute("*", "*", "*")]
-    [EnableCorsAttribute("http://localhost:51735", "*", "*")]
-    [RequireHttpsAttribute]
+    //[EnableCorsAttribute("http://localhost:51735", "*", "*")]
+    //[RequireHttpsAttribute]
+    [Authorize]
     public class EmployeesController : ApiController
     {
          public HttpResponseMessage Get()
@@ -26,7 +23,7 @@ namespace EmployeeSerivce.Controllers
             }
         }
 
-        [DisableCors]
+        //[DisableCors]
         public HttpResponseMessage Get(int id)
         {
             using (EmployeeDBEntities entities = new EmployeeDBEntities())
@@ -43,6 +40,21 @@ namespace EmployeeSerivce.Controllers
                 }
             }
         }
+
+        [AllowAnonymous]
+        [Route("api/employees/{id}/names")]
+        public Employee GetEmployee(int id)
+        {
+            using (EmployeeDBEntities entities = new EmployeeDBEntities())
+            {
+                var entity = entities.Employees.FirstOrDefault(e => e.ID == id);
+               
+                    return entity;
+            
+                
+            }
+        }
+
 
         //public void Post([FromBody] Employee employee)
         //{

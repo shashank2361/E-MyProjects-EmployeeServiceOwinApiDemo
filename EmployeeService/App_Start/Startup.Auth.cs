@@ -10,6 +10,8 @@ using Microsoft.Owin.Security.OAuth;
 using Owin;
 using EmployeeService.Providers;
 using EmployeeService.Models;
+using Microsoft.Owin.Security.Facebook;
+using EmployeeService.Facebook;
 
 namespace EmployeeService
 {
@@ -38,7 +40,7 @@ namespace EmployeeService
                 TokenEndpointPath = new PathString("/Token"),
                 Provider = new ApplicationOAuthProvider(PublicClientId),
                 AuthorizeEndpointPath = new PathString("/api/Account/ExternalLogin"),
-                AccessTokenExpireTimeSpan = TimeSpan.FromDays(14),
+                AccessTokenExpireTimeSpan = TimeSpan.FromHours(15),
                 // In production mode set AllowInsecureHttp = false
                 AllowInsecureHttp = true
             };
@@ -55,15 +57,30 @@ namespace EmployeeService
             //    consumerKey: "",
             //    consumerSecret: "");
 
-            //app.UseFacebookAuthentication(
-            //    appId: "",
-            //    appSecret: "");
+            var facebookOptions = new FacebookAuthenticationOptions()
+            {
+                AppId = "1154056031415680",
+                AppSecret = "d83289de8f3051f2393a4ab9911836aa",
+                BackchannelHttpHandler = new FacebookBackChannelHandler(),
+                UserInformationEndpoint = "https://graph.facebook.com/v2.4/me?fields=id,email"
+            };
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            facebookOptions.Scope.Add("email");
+            app.UseFacebookAuthentication(facebookOptions);
+
+            //app.UseFacebookAuthentication(
+            //    appId: "1154056031415680",
+            //    appSecret: "d83289de8f3051f2393a4ab9911836aa"
+            //);
+
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "300233384174-13l4os4k822n5rc4n70hoti1q342g125.apps.googleusercontent.com",
+                ClientSecret = "fXXFxb2xvlNlKgnMf2Lx-z3-"
+            });
+
+
+ 
         }
     }
 }
